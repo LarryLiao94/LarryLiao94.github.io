@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">LARRY LIAO</a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Larry Liao</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I'm a Full Stack Software Engineer, but beyond that I'm an avid gamer,
+          a Wal-Mart Klay Thompson on the courts, all things anime and manga
+          lover, and a devoted dog father.
+        </p>
+        <div class="social-media">
+          <!-- <a href="#"><i class="bx bxl-facebook"></i></a> -->
+          <a href="https://github.com/LarryLiao94" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/larrysyliao/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/asap_pork/" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+        <a
+          href="https://docs.google.com/document/d/1vybZTfPcM7HgrD9k8u59cO784LRhkUgFTh4XX5w8lMc/edit?usp=sharing"
+          target="_blank"
+          class="btn"
+          >Resume</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="images/me.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/me.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full Stack Software Engineer!</h3>
+        <p>
+          Hello! My name is Larry Liao, and I have a passion for technology and
+          innovation. I thrive on solving complex problems and enjoy exploring
+          new technologies! What really excites me is the opportunity to bring
+          my problem-solving skills to the world of tech. With a love for
+          exploring new technologies and a knack for tackling challenges
+          head-on, I am excited to bring my unique perspective to this exciting
+          industry.
+          <br />
+          <br />
+          When I'm not working on tech projects, you can find me becoming my
+          alter ego, Wal-Mart Klay Thompson on the basketball court or diving
+          into the world of anime and manga. I'm a self-proclaimed foodie and
+          love trying new foods from all around the world. I'm also a master of
+          the grill, come see me about my smash burgers and grilled seafoods.
+          <br />
+          <br />
+          As a nature lover, I enjoy going on hikes and chasing sunsets. I also
+          love a perfect blue bird day on the slopes, snowboarding with my
+          friends and having a great time.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bxl-javascript"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-python"></i>
+          <h3>Python</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-html5"></i>
+          <h3>HTML</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-css3"></i>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-redux"></i>
+          <h3>Redux</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-nodejs"></i>
+          <h3>Node.JS</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-flask"></i>
+          <h3>Flask</h3>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-typescript"></i>
+          <h3>Typescript</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/quizzy.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Quizzy</h4>
+            <p>
+              A crowdsourcing quiz taking application similar to Quizlet or
+              Kahoot, to provide a more interactive studying experience
+            </p>
+            <a href="https://larry-quiz-app.onrender.com/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/splitwise.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>SpliceWise</h4>
+            <p>
+              A react-based application inspired by Splitwise with robust
+              features such as payment and balance management among users, and
+              dynamic commenting on various transactions allowing for easy
+              communication and collaboration
+            </p>
+            <a
+              href="https://splitwise-group-project.onrender.com/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <a href="https://github.com/LarryLiao94" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        <a href="https://www.linkedin.com/in/larrysyliao/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
